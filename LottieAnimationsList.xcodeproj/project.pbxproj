@@ -13,6 +13,9 @@
 		6EF22ADA2988B97300BF7DB9 /* AnimationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF22AD92988B97300BF7DB9 /* AnimationsListView.swift */; };
 		6EF22ADD2988BA2C00BF7DB9 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 6EF22ADC2988BA2C00BF7DB9 /* Lottie */; };
 		6EF22ADF2988BA6200BF7DB9 /* lottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF22ADE2988BA6200BF7DB9 /* lottieView.swift */; };
+		6EF22AE22988BAD800BF7DB9 /* 135415-sky-lightning.json in Resources */ = {isa = PBXBuildFile; fileRef = 6EF22AE12988BAD800BF7DB9 /* 135415-sky-lightning.json */; };
+		6EF22AE42988BAFD00BF7DB9 /* 135415-sky-lightning.json in Resources */ = {isa = PBXBuildFile; fileRef = 6EF22AE32988BAFD00BF7DB9 /* 135415-sky-lightning.json */; };
+		6EF22AE62988BB0100BF7DB9 /* 133271-emoticon.json in Resources */ = {isa = PBXBuildFile; fileRef = 6EF22AE52988BB0100BF7DB9 /* 133271-emoticon.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		6EF22AD02988B8FD00BF7DB9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6EF22AD92988B97300BF7DB9 /* AnimationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsListView.swift; sourceTree = "<group>"; };
 		6EF22ADE2988BA6200BF7DB9 /* lottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lottieView.swift; sourceTree = "<group>"; };
+		6EF22AE12988BAD800BF7DB9 /* 135415-sky-lightning.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "135415-sky-lightning.json"; sourceTree = "<group>"; };
+		6EF22AE32988BAFD00BF7DB9 /* 135415-sky-lightning.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "135415-sky-lightning.json"; path = "../../../../../Downloads/135415-sky-lightning.json"; sourceTree = "<group>"; };
+		6EF22AE52988BB0100BF7DB9 /* 133271-emoticon.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "133271-emoticon.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,7 @@
 			children = (
 				6EF22AC92988B8FB00BF7DB9 /* LottieAnimationsListApp.swift */,
 				6EF22ACD2988B8FD00BF7DB9 /* Assets.xcassets */,
+				6EF22AE02988BAA800BF7DB9 /* Animations */,
 				6EF22AD82988B95200BF7DB9 /* Model */,
 				6EF22AD72988B93400BF7DB9 /* Views */,
 				6EF22ACF2988B8FD00BF7DB9 /* Preview Content */,
@@ -86,6 +93,16 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		6EF22AE02988BAA800BF7DB9 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				6EF22AE52988BB0100BF7DB9 /* 133271-emoticon.json */,
+				6EF22AE32988BAFD00BF7DB9 /* 135415-sky-lightning.json */,
+				6EF22AE12988BAD800BF7DB9 /* 135415-sky-lightning.json */,
+			);
+			path = Animations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,7 +169,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EF22AE22988BAD800BF7DB9 /* 135415-sky-lightning.json in Resources */,
+				6EF22AE42988BAFD00BF7DB9 /* 135415-sky-lightning.json in Resources */,
 				6EF22AD12988B8FD00BF7DB9 /* Preview Assets.xcassets in Resources */,
+				6EF22AE62988BB0100BF7DB9 /* 133271-emoticon.json in Resources */,
 				6EF22ACE2988B8FD00BF7DB9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
